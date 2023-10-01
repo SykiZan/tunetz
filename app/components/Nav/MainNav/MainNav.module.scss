@@ -1,0 +1,97 @@
+.navMain {
+  display: flex;
+  align-items: center;
+  //   @media (max-width: 1140px) {
+  //     display: none;
+  //   }
+}
+
+.back {
+  display: none;
+  @media (max-width: 1140px) {
+    display: block;
+    margin-right: 12px;
+  }
+}
+
+.menu {
+  display: none;
+  @media (max-width: 1140px) {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.logo {
+  cursor: pointer;
+  @media (max-width: 1320px) {
+    width: 200px;
+  }
+}
+.separator {
+  width: 2px;
+  height: 34.5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-left: 16px;
+  margin-right: 20px;
+  @media (max-width: 1140px) {
+    display: none;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #999;
+  font-weight: 500;
+  @media (max-width: 1140px) {
+    display: none;
+  }
+}
+
+.navDropdown {
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  cursor: pointer;
+}
+
+.navItemSelected {
+  color: #242424;
+}
+
+.option {
+  margin-left: 8px;
+  margin-right: 12px;
+}
+
+.phoneBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+  @media (max-width: 1520px) {
+    margin-left: 24px;
+  }
+  @media (max-width: 1320px) {
+    margin-left: 70px;
+  }
+  @media (max-width: 1140px) {
+    display: none;
+  }
+}
+
+.phone {
+  font-size: 24px;
+  color: #242424;
+  font-weight: 600;
+}
+
+.time {
+  color: #999;
+  font-weight: 500;
+}

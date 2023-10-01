@@ -1,0 +1,46 @@
+.main {
+  max-width: 1490px;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+.content {
+  padding-top: 50px;
+  @media (max-width: 1140px) {
+    padding-top: 24px;
+  }
+}
+
+.pageName {
+  font-size: 32px;
+  color: #242424;
+  margin-bottom: 45px;
+  @media (max-width: 1140px) {
+    font-size: 24px;
+  }
+  @media (max-width: 400px) {
+    padding-left: 8px;
+  }
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  column-gap: 20px;
+  row-gap: 24px;
+  margin-bottom: 200px;
+  @media (max-width: 1520px) {
+    grid-template-columns: repeat(2, auto);
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 200px;
+  }
+
+  @media (max-width: 1025px) {
+    grid-template-columns: auto;
+  }
+  @media (max-width: 760px) {
+    row-gap: 12px;
+  }
+}
